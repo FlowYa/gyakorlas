@@ -7,6 +7,8 @@
 
 .newsletter {
 color: gray;
+border: 1px solid #cfcfcf;
+padding: 10px;
 }
 
 .newsletter button {
@@ -17,4 +19,18 @@ color: gray;
     width: 100%;
     height: 30px;
 
+}
+
+.newsletter input#email {
+    display: block;
+    width: 100%;
+    height: 30px;
+    border: 1px solid #cfcfcf;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-bottom: 4px;
+}
+
+.newsletter h3 {
+    margin-top: 0;
 }
